@@ -17,4 +17,11 @@ app.listen(3000, function() {
 app = express();
 
 app.use(express.static('public'));
-g
+
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
+    
+console.log("furqan");
+
+console.log("new");
