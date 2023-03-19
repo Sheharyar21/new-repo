@@ -19,4 +19,3 @@ fetch('/', function(req, res) {
     console.log(res);
 });
 
-g
